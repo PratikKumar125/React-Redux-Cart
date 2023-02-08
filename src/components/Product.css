@@ -1,0 +1,49 @@
+.image_hai img{
+    background: #000;
+    position: absolute;
+    height: 35%;
+    top: 30%;
+    left: 25%;
+    width: 40%;
+}
+.single__card{
+    height: 250px;
+    transition: ease-in .2s;
+    width: 340px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    padding: 0px;
+}
+.flex_kardo{
+    position: absolute;
+    top: 75%;
+    display: flex;
+    left: 25%;
+}
+.PRODBUTTON{
+    background: none;
+    /* border: none; */
+    position: absolute;
+    top: 82.5%;
+    left: 45%;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: ease .2s;
+    cursor: pointer;
+}
+.PRODBUTTON:hover{
+        border: 3px dotted #ff7a59;
+        color: #ff7a59;
+        background: #fff;
+}
+
+.MAIN__CARD{
+    /* background: #000; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

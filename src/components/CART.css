@@ -1,0 +1,60 @@
+.CART_PRODUCT{
+    display: flex;
+    height: 240px;
+    width: 60%;
+    justify-content: space-around;
+    /* background: #000; */
+    position: relative;
+    left: 5%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.inc_dec{
+    position: absolute;
+    top: 80%;
+    left: 6%;
+}
+.CART_PRODUCT span{
+    margin: 0 5px 0 5px;
+}
+.CART_PRODUCT h3{
+    position: absolute;
+    top: 58%;
+    left: 6%;
+}
+.CART_PRODUCT h4{
+    position: absolute;
+    left: 22%;
+    margin-right: 30px;
+    top: 5%;
+    /* background: #000; */
+}
+.CART_PRODUCT p{
+    /* background: #000; */
+    position: absolute;
+    top: 29%;
+    left: 21%;
+    width: 70%;
+    /* overflow: hidden; */
+    /* height: 120px; */
+
+}
+.CART_PRODUCT img{
+    height: 100px;
+    position: absolute;
+    width: 110px;
+    top: 20%;
+    left: 3%;
+}
+.REMOVEBUTTON{
+    height: 30px;
+    background: None;
+    border: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    cursor: pointer;
+}
